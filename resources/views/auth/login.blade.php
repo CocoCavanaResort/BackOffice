@@ -3,9 +3,9 @@
     <link rel="stylesheet" href="/public/src/css/login.min.css">
 @endpush
 @section('main')
-    <div class="card p-2 wrapper">
+    <div class="card wrapper">
         <div class="card-body">
-            <h3>{{ config('app.name') }}</h3>
+            <h4>{{ config('app.name') }}</h4>
             <div class="graphics">
                 <img src="/public/src/images/login.jpg" alt="">
             </div>
