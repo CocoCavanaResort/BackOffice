@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ (isset($title) ? $title . ' | ' : '') . config('app.name') }}</title>
 
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/public/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/public/src/css/style.min.css">
