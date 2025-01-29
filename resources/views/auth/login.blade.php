@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="mb-4">
-                    <a href="#" class="nav-link">Forgot Password?</a>
+                    <a href="#" class="nav-link text-primary">Forgot Password?</a>
                 </div>
                 <div class="d-grid">
                     <button type="submit" class="btn btn-success">Login</button>
