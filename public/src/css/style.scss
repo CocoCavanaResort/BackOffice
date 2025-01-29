@@ -25,6 +25,7 @@ footer {
         border: thin solid silver !important;
 
         &:focus {
+            box-shadow: none !important;
             border-color: #2fb380;
         }
 
