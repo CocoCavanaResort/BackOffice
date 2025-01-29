@@ -9,7 +9,7 @@ main {
 
 .wrapper {
     min-width: 400px;
-    box-shadow: 0 0 8px lightgray;
+    box-shadow: 0 0 8px lightgray !important;
 
     @media screen and (max-width:480px) {
         min-width: 100vw;
