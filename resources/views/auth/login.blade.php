@@ -9,6 +9,7 @@
             <div class="graphics">
                 <img src="/public/src/images/login.jpg" alt="">
             </div>
+            <div class="alert hide">{{ $error }}</div>
             <form action="" method="POST">
                 @csrf
                 <div class="mb-4">
@@ -28,7 +29,7 @@
                 <div class="mb-4">
                     <a href="#" class="nav-link text-primary">Forgot Password?</a>
                 </div>
-                <div class="d-grid">
+                <div class="d-grid mb-4">
                     <button type="submit" class="btn btn-success">Login</button>
                 </div>
             </form>
