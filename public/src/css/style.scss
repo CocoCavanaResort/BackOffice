@@ -20,6 +20,11 @@ footer {
 }
 
 .input-group {
+    input:focus, .input-group-text:has(+input:focus) {
+        border:thin solid #2fb380 !important;
+        box-shadow:none !important
+    }
+
     input, .input-group-text {
         background-color: white !important;
         border: thin solid silver !important;
