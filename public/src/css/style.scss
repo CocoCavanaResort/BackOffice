@@ -26,8 +26,8 @@ footer {
     }
 
     input, .input-group-text {
-        background-color: white !important;
-        border: thin solid silver !important;
+        background-color: white;
+        border: thin solid silver;
         
         &:not(:last-child) {
             border-right: none !important;
