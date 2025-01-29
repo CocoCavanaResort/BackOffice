@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="/public/src/css/login.min.css">
 @endpush
 @section('main')
-    <div class="card p-3 wrapper">
+    <div class="card p-2 wrapper">
         <div class="card-body">
             <h3>{{ config('app.name') }}</h3>
             <div class="graphics">

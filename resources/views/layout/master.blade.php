@@ -6,7 +6,9 @@
     <title>{{ (isset($title) ? $title . ' | ' : '') . config('app.name') }}</title>
 
     <link rel="shortcut icon" href="/public/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/public/vendor/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch/dist/zephyr/bootstrap.min.css">
+    {{-- <link rel="stylesheet" href="/public/vendor/bootstrap/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="/public/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/public/src/css/style.min.css">
     @stack('style')
