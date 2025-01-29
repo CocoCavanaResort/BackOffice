@@ -1,6 +1,6 @@
 @extends('layout.master')
 @push('style')
-    <link rel="stylesheet" href="/res/css/login.min.css">
+    <link rel="stylesheet" href="/src/css/login.min.css">
 @endpush
 @section('main')
     <div class="card">
