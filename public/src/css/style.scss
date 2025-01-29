@@ -22,7 +22,7 @@ footer {
 .input-group {
     input, .input-group-text {
         background-color: white !important;
-        border: thin solid silver;
+        border: thin solid silver !important;
 
         &:focus, &:active {
             box-shadow: none !important;
