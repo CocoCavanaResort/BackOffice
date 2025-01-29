@@ -6,11 +6,11 @@
     <title>{{ (isset($title) ? $title . ' | ' : '') . config('app.name') }}</title>
 
     <link rel="stylesheet" href="/public/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/vendor/fontawesome/all/min.css">
+    <link rel="stylesheet" href="/public/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/public/src/css/style.min.css">
     @stack('style')
 
-    <script src="/public/vendor/jquery/jquery-3.7.2.min.js"></script>
+    <script src="/public/vendor/jquery/jquery-3.7.1.min.js"></script>
     <script src="/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     @stack('script')
 </head>
