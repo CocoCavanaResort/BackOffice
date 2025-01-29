@@ -22,11 +22,11 @@ footer {
 .input-group {
     input, .input-group-text {
         background-color: white !important;
-        border: thin solid silver !important;
+        border: thin solid silver;
 
         &:focus, &:active {
             box-shadow: none !important;
-            border-color: #2fb380 !important;
+            border-color: thin solid #2fb380 !important;
         }
 
         &:not(:last-child) {
