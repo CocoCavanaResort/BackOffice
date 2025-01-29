@@ -10,7 +10,7 @@ main {
 .wrapper {
     min-width: 400px;
 
-    @media screen {
+    @media screen and (max-width:480px) {
         min-width: 100vw;
         min-height: 100vh;
     }

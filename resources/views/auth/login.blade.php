@@ -7,6 +7,7 @@
         <div class="card-body">
             <h3>{{ config('app.name') }}</h3>
             <form action="" method="POST">
+                @csrf
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <div class="input-group">
