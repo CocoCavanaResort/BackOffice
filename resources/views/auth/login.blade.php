@@ -6,6 +6,9 @@
     <div class="card wrapper">
         <div class="card-body">
             <h3>{{ config('app.name') }}</h3>
+            <div class="graphics">
+                <img src="/public/src/images/login" alt="">
+            </div>
             <form action="" method="POST">
                 @csrf
                 <div class="mb-3">
