@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="/public/src/css/login.min.css">
 @endpush
 @section('main')
-    <div class="card wrapper">
+    <div class="card p-4 wrapper">
         <div class="card-body">
             <h3>{{ config('app.name') }}</h3>
             <div class="graphics">
@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-control">Password</label>
+                    <label for="password" class="form-label">Password</label>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa fa-lock"></i></span>
                         <input type="password" class="form-control" name="password" id="password">
