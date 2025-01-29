@@ -4,7 +4,7 @@
 @endpush
 @section('main')
     <div class="card">
-        <h3>config('app.name')</h3>
+        <h3>{{ config('app.name') }}</h3>
         <form action="" method="POST">
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -19,6 +19,9 @@
                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
                     <input type="password" class="form-control" name="password" id="password">
                 </div>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Login</button>
             </div>
         </form>
     </div>
