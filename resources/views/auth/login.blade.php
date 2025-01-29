@@ -11,19 +11,22 @@
             </div>
             <form action="" method="POST">
                 @csrf
-                <div class="mb-3">
+                <div class="mb-4">
                     <label for="email" class="form-label">Email</label>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                         <input class="form-control" type="email" name="email" id="email">
                     </div>
                 </div>
-                <div class="mb-3">
+                <div class="mb-4">
                     <label for="password" class="form-label">Password</label>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa fa-lock"></i></span>
                         <input type="password" class="form-control" name="password" id="password">
                     </div>
+                </div>
+                <div class="mb-4">
+                    <a href="#" class="nav-link">Forgot Password?</a>
                 </div>
                 <div class="d-grid">
                     <button type="submit" class="btn btn-success">Login</button>
